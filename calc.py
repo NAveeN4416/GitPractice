@@ -6,9 +6,9 @@ def multipler(m):
 
 def divider(m):
 	def calculate(n):
- 		if n:	
-			return m / n
-		return None
+ 		if n:
+ 			return m / n
+ 		return None
 	return calculate
 
 
