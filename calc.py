@@ -4,6 +4,13 @@ def multipler(m):
 
 	return calculate
 
+def divider(m):
+	def calculate(n):
+ 		if n:	
+			return m / n
+		return None
+	return calculate
+
 
 three_multipl = multipler(3) 
 print(three_multipl(3))
