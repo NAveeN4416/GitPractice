@@ -22,3 +22,6 @@ print(Person.__data__)
 
 # Output: "This is a person class"
 print(Person.__class__.__name__)
+
+
+print(Person.greet())
